@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 30px;
+}
+
+.letterhead {
+    text-align: center;
+}
+
+.letterhead h2 {
+    margin: 2px 0;
+}
+
+.letterhead p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.dept {
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+}
+
+.tt-title {
+    text-align: center;
+}
+
+.tt-title p {
+    margin: 2px 0;
+}
+
+table.meta {
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+
+table.meta td {
+    border: none;
+    padding: 0;
+}
+
+table.meta .right {
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 6px;
+    text-align: center;
+    font-size: 13px;
+}
+
+th {
+    font-weight: bold;
+}
+
+.recess {
+    writing-mode: vertical-rl;
+}
+
+.side-table td, .side-table th {
+    text-align: left;
+    font-size: 13px;
+}
+
+.small-table {
+    width: 40%;
+}

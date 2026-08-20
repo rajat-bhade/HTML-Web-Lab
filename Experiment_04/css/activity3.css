@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.box {
+    background-color: #d6e4f0;
+    text-align: center;
+    margin: 10px;
+}
+
+.box1 {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.box2 {
+    width: 200px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.box3 {
+    width: 200px;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #183b66;
+    color: white;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Academic Record - Tables</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Web Technology Laboratory</h1>
+    <h2>Practical 3 - Part A: HTML Tables</h2>
+
+    <hr>
+
+    <h3>Lab Activity 1: Student Academic Record</h3>
+    <table border="1">
+        <caption>Student Academic Record</caption>
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Web Technology</th>
+                <th>Cyber Security</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Amit</td>
+                <td>82</td>
+                <td>88</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Priya</td>
+                <td>91</td>
+                <td>86</td>
+                <td>177</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Rahul</td>
+                <td>76</td>
+                <td>80</td>
+                <td>156</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Neha</td>
+                <td>89</td>
+                <td>94</td>
+                <td>183</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Lab Activity 2: Student Information (colspan)</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Student Information</th>
+            </tr>
+            <tr>
+                <th>Roll</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Semester</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Rajat</td>
+                <td>CSE (Cyber Security)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Sanika</td>
+                <td>CSE (Cyber Security)</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Lab Activity 3: Day Schedule (rowspan)</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+                <th>Faculty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td>Web Technology</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Cyber Security</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Lab Activity 4 / Final Activity: Class Time Table</h3>
+    <table border="1">
+        <caption>VII SEM CSE - Class Time Table</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>9-10</th>
+                <th>10-11</th>
+                <th>11-12</th>
+                <th>12-1</th>
+                <th>2-3</th>
+                <th>3-4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td>WT</td>
+                <td>CN</td>
+                <td>Java</td>
+                <td rowspan="3">Lunch</td>
+                <td>OS</td>
+                <td>SE</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>DBMS</td>
+                <td>WT</td>
+                <td>AI</td>
+                <td>CN</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>OS</td>
+                <td>DBMS</td>
+                <td>WT</td>
+                <td>AI</td>
+                <td>CN</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <p><small>&copy; 2026 Rajat Bhade | Practical 3 - Web Technology Lab</small></p>
+
+</body>
+
+</html>

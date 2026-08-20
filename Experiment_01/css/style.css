@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    color: #222;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #003366;
+}
+
+h2 {
+    color: #0059b3;
+}
+
+img {
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+mark {
+    background-color: #ffe066;
+}
+
+a {
+    color: #0059b3;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+}
