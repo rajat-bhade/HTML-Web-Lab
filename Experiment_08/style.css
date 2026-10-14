@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 30px 15px;
+    color: #222;
+}
+
+.container {
+    max-width: 480px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+.container.wide {
+    max-width: 1000px;
+}
+
+h1 {
+    text-align: center;
+    color: #183b66;
+    margin-top: 0;
+}
+
+/* Forms */
+label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #285a91;
+}
+
+button,
+.button-link {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-top: 15px;
+    background-color: #183b66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+button:hover,
+.button-link:hover {
+    background-color: #285a91;
+}
+
+.link {
+    margin-left: 12px;
+    color: #183b66;
+}
+
+/* Messages */
+.message {
+    padding: 10px 14px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+.message.success {
+    background-color: #e1f5e4;
+    color: #1b6b2b;
+    border: 1px solid #a8d8b0;
+}
+
+.message.error {
+    background-color: #fde8e8;
+    color: #a12020;
+    border: 1px solid #f0b4b4;
+}
+
+/* Table */
+.table-wrap {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #183b66;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f9fc;
+}
+
+/* Edit / Delete actions */
+.actions {
+    white-space: nowrap;
+}
+
+.actions form {
+    display: inline;
+}
+
+.actions a.edit {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #2e8b57;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.actions button.delete {
+    margin: 0 0 0 5px;
+    padding: 6px 12px;
+    background-color: #c0392b;
+    font-size: 13px;
+}
+
+.actions button.delete:hover {
+    background-color: #e04b3a;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 15px 8px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    th, td {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
